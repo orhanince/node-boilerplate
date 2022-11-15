@@ -5,7 +5,7 @@ module.exports = (req, res, next) => {
   const {
     headers: { authorization },
   } = req;
-  console.log('req.headers', req.headers)
+  console.log('req.headers', req.headers);
   if (!authorization) {
     const error = new GenericError(
       400,

@@ -1,5 +1,5 @@
 {
-  "name": "node-boilerplate",
+  "name": "ap-gateway",
   "version": "2.0.0",
   "description": "oba software node boilerplate",
   "main": "src/index.js",
@@ -15,12 +15,11 @@
     "test:unit": "jest test/unit/**.test.js --no-cache  --detectOpenHandles --runInBand --forceExit --silent",
     "test:integration": "jest test/integration/**.test.js --no-cache  --detectOpenHandles --runInBand --forceExit --silent",
     "test": "npm run test:unit && npm run test:integration",
-    "prepare": "husky install",
-    "sequelize": "sequelize init"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/orhanince/node-boilerplate"
+    "url": "git+ssh://git@github.com/orhanince/api-gateway"
   },
   "keywords": [
     "catalog",
@@ -32,9 +31,9 @@
   "author": "ruut mobility",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/orhanince/node-boilerplate/issues"
+    "url": "https://github.com/orhanince/api-gateway/issues"
   },
-  "homepage": "https://github.com/orhanince/node-boilerplate#readme",
+  "homepage": "https://github.com/orhanince/api-gateway#readme",
   "dependencies": {
     "@sentry/node": "^6.17.6",
     "@sentry/tracing": "^6.17.6",
